@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/shared/container";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { ImageFrame } from "@/components/shared/image-frame";
+import { media } from "@/lib/media";
 
 export function AboutPreview() {
   return (
@@ -11,7 +12,7 @@ export function AboutPreview() {
         <div className="grid gap-10 lg:grid-cols-12 lg:items-start">
           <div className="lg:col-span-5">
             <ImageFrame
-              src="/images/placeholders/factory-placeholders.jpeg"
+              src={media.images.factory}
               alt="Tajpuriya Agritech factory facility placeholder"
               ratio="portrait"
               wrapperClassName="max-w-xl shadow-md"
