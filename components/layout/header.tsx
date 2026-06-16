@@ -8,6 +8,8 @@ import { MobileNav } from "@/components/layout/mobile-nav";
 import { siteConfig } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
+import { media } from "@/lib/media";
 
 export function Header() {
   const [productsOpen, setProductsOpen] = useState(false);
@@ -46,7 +48,16 @@ export function Header() {
 
       <Container className="flex items-center justify-between gap-4 py-4">
         <Link href="/" className="flex min-w-0 items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-green text-sm font-semibold text-white">T</span>
+          <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-brand-green">
+            <Image
+              src={media.images.logo}
+              alt={siteConfig.name}
+              width={44}
+              height={44}
+              className="object-contain"
+              priority
+            />
+          </div>
           <span className="min-w-0">
             <span className="block truncate text-sm font-semibold tracking-[0.02em] text-brand-navy sm:text-base">
               Tajpuriya Agritech Private Limited

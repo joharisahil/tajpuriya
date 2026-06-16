@@ -8,7 +8,7 @@ export const siteConfig = {
     line1: "Plot No-409M, Dhankuna Road, Majhola, Khatima",
     line2: "Udham Singh Nagar, Uttarakhand - 262308, India"
   },
-  phone: "",
-  email: "info@tajpuriyaagritech.com",
+  phone: "9758588888",
+  email: "tajpuriyaagritech@gmail.com",
   market: "Pan India"
 };

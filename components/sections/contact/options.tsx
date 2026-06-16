@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/site";
 import { CopyAction } from "@/components/sections/contact/copy-actions";
 
 export function ContactOptions() {
-  const phone = siteConfig.phone || "Phone available on request";
+  const phone = siteConfig.phone || "9758588888";
   const phoneHref = siteConfig.phone ? `tel:${siteConfig.phone.replace(/\s+/g, "")}` : "/contact";
   const emailHref = `mailto:${siteConfig.email}`;
   const whatsappHref = siteConfig.phone ? `https://wa.me/${siteConfig.phone.replace(/\D/g, "")}` : "/contact";
