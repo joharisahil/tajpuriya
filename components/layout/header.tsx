@@ -9,7 +9,7 @@ export function Header() {
   const phoneHref = siteConfig.phone ? `tel:${siteConfig.phone.replace(/\s+/g, "")}` : "/contact";
 
   return (
-   <header className="sticky top-0 z-[9997] border-b border-neutral-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/90">
+    <header className="sticky top-0 z-[9997] border-b border-neutral-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/90">
       <div className="border-b border-neutral-100 bg-brand-navy text-white">
         <Container className="flex items-center justify-between gap-3 py-2">
           <p className="text-caption">Pan India supply of food ingredients</p>
