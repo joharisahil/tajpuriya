@@ -1,5 +1,6 @@
 import { Container } from "@/components/shared/container";
 import { ImageFrame } from "@/components/shared/image-frame";
+import { media } from "@/lib/media";
 
 export function PanIndiaReachSection() {
   return (
@@ -20,17 +21,13 @@ export function PanIndiaReachSection() {
             </div>
           </div>
 
-          <div className="lg:col-span-7">
-          <iframe
-          title="India Map"
-          src="https://maps.google.com/maps?q=20.5937,78.9629&z=5&output=embed"
-          className="h-[320px] w-full md:h-[420px] lg:h-[500px]"
-          loading="lazy"
-          style={{ border: 0 }}
-          allowFullScreen
-          referrerPolicy="no-referrer-when-downgrade"
-          />
-          </div>
+        <div className="lg:col-span-7">
+        <ImageFrame
+        src={media.images.panIndia}
+        alt="Pan India Supply Network"
+        className="h-[320px] w-full md:h-[420px] lg:h-[500px]"
+        />
+        </div>
         </div>
       </Container>
     </section>

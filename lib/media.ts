@@ -54,5 +54,6 @@ export const media = {
     maltoseDextrinPowder: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1781611643/maltose-dextrin-powder_kkni3x.jpg",
     sorbitol: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1781611742/sorbitol_k8imhj.jpg",
     logo: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1781619916/WhatsApp_Image_2026-04-06_at_11.43.46_AM_rvtfyz.jpg",
+    panIndia: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1782141154/panindia-service-network_jgtxrd.jpg"
   },
 };
