@@ -34,7 +34,7 @@ export const media = {
   images: {
     heroPoster: "/images/hero-poster.jpg",
     bakeryIndustry: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1781521613/pexels-travel-with-lenses-734723610-30918891_nvymgr.jpg",
-    foodProcessing: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1781522822/pexels-vladimirsrajber-18631424_ptt0yr.jpg",
+    foodProcessing: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1782115076/pexels-shvetsa-5964491_mxrvnn.jpg",
     beverageIndustry: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1781523546/pexels-tiennguyen-19777906_pkemw1.jpg",
     pharmaceuticalIndustry: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1781523769/pexels-shvets-production-9742739_nxxj2w.jpg",
     nutraceuticalIndustry: "https://res.cloudinary.com/ddkvxhleo/image/upload/q_auto/f_auto/v1781523971/pexels-n-voitkevich-7615463_q1q97e.jpg",

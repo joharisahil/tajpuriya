@@ -40,10 +40,10 @@ export function ProductHero({ product }: { product: Product }) {
             <Link href="/contact" className="inline-flex items-center rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white">
               Contact Team
             </Link>
-            <a href="#specifications" className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">
+            {/* <a href="#specifications" className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">
               <Download className="h-4 w-4" />
               Download Specifications
-            </a>
+            </a> */}
           </div>
         </div>
       </Container>

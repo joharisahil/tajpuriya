@@ -5,6 +5,7 @@ export const mainNav = [
   { label: "Products", href: "/products" },
   { label: "Industries", href: "/industries" },
   { label: "Certifications", href: "/certifications" },
+  { label: "FAQ", href: "/faqs" },
   { label: "Contact", href: "/contact" }
 ];
 

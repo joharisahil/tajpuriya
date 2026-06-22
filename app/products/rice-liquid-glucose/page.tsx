@@ -76,13 +76,13 @@ export default function RiceLiquidGlucosePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <ProductHero product={product} />
       <ProductOverview product={product} />
-      <ProductBenefits product={product} />
+      {/* <ProductBenefits product={product} /> */}
       <ProductApplications product={product} />
       <ProductSpecifications product={product} />
       <ProductPackaging product={product} />
       <ProductQuality product={product} />
       <ProductRelatedProducts product={product} />
-      <ProductFaq product={product} />
+      {/* <ProductFaq product={product} /> */}
       <ProductInquiry product={product} />
     </>
   );

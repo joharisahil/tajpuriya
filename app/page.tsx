@@ -149,17 +149,17 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <HeroSection />
       <TrustBar />
-      <AboutPreview />
+      {/* <AboutPreview /> */}
       <ProductsGrid />
       <IndustriesGrid />
       <WhyChooseUs />
       <ManufacturingExcellence />
-      <CertificationsGrid />
+      {/* <CertificationsGrid /> */}
       <QualityAssurance />
       <PanIndiaSupply />
-      <FaqSection />
+      {/* <FaqSection /> */}
       <FinalCta />
-      <ContactPreview />
+      {/* <ContactPreview /> */}
     </>
   );
 }

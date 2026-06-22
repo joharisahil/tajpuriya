@@ -152,7 +152,7 @@ export default function IndustriesPage() {
       <IndustryProcessSection />
       <WhyIndustriesWorkWithUsSection />
       <RelatedProductsSection />
-      <IndustriesFaqSection />
+      {/* <IndustriesFaqSection /> */}
       <IndustriesCtaSection />
     </>
   );

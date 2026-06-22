@@ -22,8 +22,8 @@ export function PanIndiaReachSection() {
 
           <div className="lg:col-span-7">
           <iframe
-          title="Tajpuriya Agritech Location"
-          src="https://www.google.com/maps?q=Plot%20No-409M%20Dhankuna%20Road%20Majhola%20Khatima%20Udham%20Singh%20Nagar%20Uttarakhand%20262308%20India&output=embed"
+          title="India Map"
+          src="https://maps.google.com/maps?q=20.5937,78.9629&z=5&output=embed"
           className="h-[320px] w-full md:h-[420px] lg:h-[500px]"
           loading="lazy"
           style={{ border: 0 }}

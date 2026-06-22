@@ -126,7 +126,7 @@ export function ContactFormSection() {
             </form>
           </div>
 
-          <div className="lg:col-span-4">
+          {/* <div className="lg:col-span-4">
             <div className="border-t border-neutral-200 pt-6">
               <p className="text-label text-brand-green">Contact Details</p>
               <div className="mt-4 space-y-4 text-sm text-neutral-700">
@@ -135,7 +135,7 @@ export function ContactFormSection() {
                 <p>{siteConfig.email}</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </Container>
     </section>

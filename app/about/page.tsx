@@ -12,6 +12,8 @@ import { PanIndiaReachSection } from "@/components/sections/about/pan-india-reac
 import { AboutFaqSection } from "@/components/sections/about/faq";
 import { AboutCtaSection } from "@/components/sections/about/cta";
 import { media } from "@/lib/media";
+import { AboutPreview } from "@/components/sections/home/about-preview";
+import { LocationSection } from "@/components/sections/contact/location";
 
 export const metadata: Metadata = {
   title: "About Tajpuriya Agritech Private Limited",
@@ -142,15 +144,17 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <AboutHero />
-      <CompanyIntro />
+      <AboutPreview />
+      <LocationSection />
+      {/* <CompanyIntro /> */}
       <JourneySection />
       <PhilosophySection />
       <FacilitySection />
       <MissionVisionSection />
-      <CertificationHighlights />
+      {/* <CertificationHighlights /> */}
       <WhyBuyersChooseUsSection />
       <PanIndiaReachSection />
-      <AboutFaqSection />
+      {/* <AboutFaqSection /> */}
       <AboutCtaSection />
     </>
   );
