@@ -4,7 +4,9 @@ import { Container } from "@/components/shared/container";
 import { ImageFrame } from "@/components/shared/image-frame";
 import { media } from "@/lib/media";
 
-const trustPoints = ["ISO Certified", "HALAL Certified", "KOSHER Certified", "Pan India Supply"];
+// const trustPoints = ["ISO Certified", "HALAL Certified", "KOSHER Certified", "Pan India Supply"];
+const trustPoints = ["Pan India Supply"];
+
 
 export function HeroSection() {
   return (
